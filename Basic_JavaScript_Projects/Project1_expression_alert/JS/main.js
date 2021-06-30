@@ -1,8 +1,11 @@
-var A="\"hello world\"";//defines variable A
-window.alert(A)//calls variable A in a pop up window 
-document.write(A);//calls variable A and is printed on the screen
-var B="concatenated"+"string"//defines variable B
-document.write(B)//calls variable B and prints it on screen
+function myFunction() {
+    var str1 = "Hello ";
+    var str2 = "world!";
+    var res = str1.concat(str2);
+    document.getElementById("demo").innerHTML = res;
+  }
+
+window.alert("hello world")//displays a pop up window 
 document.write("\"Be who you are and say what you feel, "// displays dr.seuss quote on screen
 +"because those who mind don\'t matter and those who matter don\'t mind.\""
 +"-Dr.Seuss")

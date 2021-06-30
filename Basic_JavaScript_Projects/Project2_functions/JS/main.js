@@ -1,7 +1,9 @@
 function displayDate() {
     document.getElementById("demo").innerHTML = Date()}
 
-    function myFunction(p1, p2) {
-        return p1 * p2;
-      }
-      document.getElementById("demo").innerHTML = myFunction(4, 3);
+    var x = myFunction(4, 3);
+    document.getElementById("demo").innerHTML = x;
+    
+    function myFunction(a, b) {
+      return a * b;
+    }
