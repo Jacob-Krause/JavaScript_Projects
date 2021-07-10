@@ -14,13 +14,13 @@ function add3() {//local variable
     x=20
     document.write(20+x+"<br>")//Adds 20 to x and starts a new line
 }
-}
+
 
 function add4() {//local variable
     x=30
     document.write(x+100)//Adds 100 to x 
 }
-}
+
 
 add3();//calls function
 add4();//calls function
