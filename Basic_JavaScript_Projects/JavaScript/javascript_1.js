@@ -26,3 +26,8 @@ function Food_Function () {
     }
     document.getElementById("output").innerHTML = food_output;
 }
+
+function Hello_function() {
+    var a = document.getElementsByClassName("Click");
+    a[0].innerHTML = "The text has changed!";
+}
