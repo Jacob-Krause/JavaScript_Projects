@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<meta charset="utf-8">
+	</head>
+    <body>
+		<main>
+            <script>
+                $(document).ready(function(){   // Once the page loads, it will run the jQuery
+                    $("html").append(   // Adds the text below to the html element
+                        "<body>\
+                            <div id = 'container'>\
+                                <div id = 'inner'>\
+                                    <h1>Basic jQuery</h1>\
+                                    <p id = '1'>Paragraph 1</p>\
+                                    <p id = '2'>Paragraph 2</p>\
+                                    <p id = '3'>Paragraph 3</p>\
+                                </div>\
+                            </div>\
+                        </body>"
+            );
+            $("#2").css({"color":"red"});   // Finds id = 2 and changes its color to red
+            $('#3').click(function() {
+                $('h1').hide(); // Hides h1 element when you click on h3 
+            });
+        });
+            </script>
+		</main>
+    </body>
+	<footer></footer>
+</html>
