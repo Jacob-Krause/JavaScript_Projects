@@ -2,9 +2,12 @@
  These are some small projects I made using JavaScript
 
 <h2> Projects</h2>
- Pizza Menu
- Tic Tac Toe
- Calculator
+<ul>
+			<li>Pizza Menu</li>
+			<li>Tic Tac Toe</li>
+			<li>Calculator</li>
+			
+</ul>
 
  Pizza Menu
 
