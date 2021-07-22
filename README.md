@@ -9,15 +9,15 @@
 			
 </ul>
 
- Pizza Menu
+ <h4>Pizza Menu</h4>
 
  This project is a menu used to order pizza with a various selection of toppings. 
  It then takes the input info and calculates a price for the order.
 
- Tic Tac Toe Game
+<h4> Tic Tac Toe Game</h4>
 
  The classic game of tic tac toe. Play against the computer and see if you can win.
 
- Calculator
+<h4> Calculator</h4>
 
  A basic 4 function calculator. 
